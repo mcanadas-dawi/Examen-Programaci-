@@ -160,9 +160,9 @@
         
         double capacitatCamio;
         if (tipusTransport == 1) {
-        capacitatCamio = 1000; en metros cúbicos
+        capacitatCamio = 1000; 
         } else {
-        capacitatCamio = 15; metros cúbicos
+        capacitatCamio = 15; 
         }
         int numViatges = (int) Math.ceil(volum / capacitatCamio);
 
